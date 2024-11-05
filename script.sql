@@ -26,23 +26,21 @@ CREATE TABLE IF NOT EXISTS packets (
 );
 
 -- entering food items
-INSERT INTO foods VALUES (1, 'burger');
-INSERT INTO foods VALUES (2, 'pizza');
-INSERT INTO foods VALUES (3, 'tandoori chicken');
-INSERT INTO foods VALUES (4, 'pasta');
+INSERT INTO foods VALUES (1, 'samosa');
+INSERT INTO foods VALUES (2, 'chat');
 
 -- inserting into agents
 INSERT INTO agents (id, name) VALUES
-    (1, 'Sachin'),
-    (2, 'Monika'),
-    (3, 'John'),
-    (4, 'Stacy'),
-    (5, 'Priya'),
-    (6, 'Joe'),
-    (7, 'Rachel'),
-    (8, 'Ross'),
-    (9, 'Chandler'),
-    (10, 'Barney');
+    (1, 'S'),
+    (2, 'M'),
+    (3, 'J'),
+    (4, 'St'),
+    (5, 'Pr'),
+    (6, 'J'),
+    (7, 'R'),
+    (8, 'Ro'),
+    (9, 'Ca'),
+    (10, 'B');
 
 -- inserting into packets different food items user wants
 INSERT INTO packets (id, food_id) VALUES
